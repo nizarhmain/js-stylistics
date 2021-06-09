@@ -65,4 +65,35 @@ const [count1, setCount1] = React.useState(0)
 ```
 
 
+### **useEffect** hook, when to use it
+
+ - data fetching
+ - subscriptions
+ - or manually changing the DOM
+
+
+ ### **useReducer** when you got lots of useStates
+
+ ```
+function reducer(state, action) {
+    switch (action.type) {
+        CASE 'LAPSE': 
+            return {
+                ...state,
+                lapse: action.now - action.startTime
+            }
+    }
+
+}
+
+const [state, dispatch] = useReducer(reducer, {
+    running:false,
+    lapse: 0
+})
+
+ ```
+
+
+
+
 
