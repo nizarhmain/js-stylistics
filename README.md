@@ -3,7 +3,7 @@
 # Javascript/Typescript tips
 
 
-## 100 commandments of Søren 
+## General guidelines
 
 ### **Never mutate data**
  never mutate data (and I mean it like never !) : always create a new object. Create object with spread operator like this 
@@ -93,7 +93,7 @@ const [state, dispatch] = useReducer(reducer, {
 
  ```
 
-
+# Typescript things
 
 
 
