@@ -92,8 +92,3 @@ const [state, dispatch] = useReducer(reducer, {
 })
 
  ```
-
-# Typescript things
-
-
-
